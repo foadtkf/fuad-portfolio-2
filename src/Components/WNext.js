@@ -2,8 +2,7 @@ import React from 'react';
 
 const WNext = () => {
     return (
-        <div class="hero min-h-screen" style={{backgroundImage: "url(https://images.unsplash.com/photo-1588053631229-d04fd47cf0ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80)"}}>
-  <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero min-h-screen mb-10" style={{backgroundImage: "url(https://images.unsplash.com/photo-1588053631229-d04fd47cf0ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80)"}}  className='lg:ml-20 lg:mr-20'>
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-md">
       <h1 class="text-xl font-bold text-center text-blue-900">What's next</h1>

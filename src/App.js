@@ -8,10 +8,11 @@ import Process from './Components/Process';
 import RecentProjects from './Components/RecentProjects';
 import Skillset from './Components/Skillset';
 import WNext from './Components/WNext';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className='lg:ml-20 lg:mr-20'>
+    <div>
       <Navbar/>
       <Hello/>
       <Skillset/>
@@ -21,6 +22,7 @@ function App() {
       <About/>
       <CaseStudies/>
       <WNext/>
+      <Footer/>
     </div>
   );
 }
