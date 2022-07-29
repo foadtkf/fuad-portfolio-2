@@ -1,4 +1,5 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 import img from '../assets/bg.png'
 const Process = () => {
     const process =[
@@ -43,7 +44,7 @@ const Process = () => {
         <div className='min-h-screen lg:ml-40 lg:mr-40' >
         <h1 class="text-4xl font-bold my-5">
       Process <span style={{color:"blue"}}>+</span></h1>
-
+      <Fade bottom cascade>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
           {
             process.map(pr=>
@@ -61,6 +62,7 @@ const Process = () => {
             )
           }
           </div>  
+          </Fade>
         </div>
     );
 };

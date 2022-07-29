@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const Career = () => {
   return (
@@ -7,8 +8,9 @@ const Career = () => {
       <h1 class="text-4xl font-bold my-5">
         Career<span style={{ color: "blue" }}>+</span>
       </h1>
-      <button class="btn btn-ghost">Get CV</button>
+      <a href='https://drive.google.com/file/d/1-raiqJXOX1E4P4T4H0XYwjIIdb7VXrLL/view?usp=sharing'><button class="btn btn-ghost  hover:outline hover:outline-teal-300">Get CV</button></a>
       </div>
+      <Fade left cascade>
       <div className="flex justify-center">
         <div class="stats shadow block lg:flex">
           <div class="stat">
@@ -75,6 +77,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </div>
   );
 };

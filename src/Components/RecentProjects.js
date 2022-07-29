@@ -1,8 +1,10 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const RecentProjects = () => {
   return (
-    <div className="mt-20  min-h-screen">
+    <Fade bottom cascade>
+    <div className="mt-20  min-h-screen lg:ml-20 lg:mr-20">
       {" "}
       <h1 class="text-5xl font-bold mb-5">
         Recent <br />
@@ -116,8 +118,9 @@ const RecentProjects = () => {
           </div>
         </div>
       </div>
-      <button class="btn btn-ghost">My Dribble</button>
+      <a href='https://dribbble.com/'><button class="btn btn-ghost  hover:outline hover:outline-teal-300">My Dribble</button></a>
     </div>
+    </Fade>
   );
 };
 
