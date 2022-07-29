@@ -2,7 +2,7 @@ import React from "react";
 
 const RecentProjects = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20  min-h-screen">
       {" "}
       <h1 class="text-5xl font-bold mb-5">
         Recent <br />
