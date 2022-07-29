@@ -5,7 +5,7 @@ const Skillset = () => {
         <div class="hero min-h-screen ">
   <div class="hero-content grid grid-cols-1 lg:grid-cols-2">
   <div>
-<h1 class="text-xl font-bold">My skillset</h1>
+<h1 class="text-xl font-bold text-blue-900">My skillset</h1>
       <h1 class="text-3xl font-bold">
       Graphic Design, Interface Design &
 User Experience<span style={{color:"blue"}}>.</span></h1>
