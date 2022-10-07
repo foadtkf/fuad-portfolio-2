@@ -12,7 +12,7 @@ const RecentProjects = () => {
       </h1>
       <div class="carousel w-full">
         <div id="slide1" class="carousel-item block  relative w-full">
-          <div className="grid grid-cols-2 gap-2">
+          <div className="flex gap-2">
             <div
               class="hero"
               style={{
@@ -27,7 +27,7 @@ const RecentProjects = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-2">
+            <div className="flex flex-col gap-2">
               <div
                 class="hero"
                 style={{
